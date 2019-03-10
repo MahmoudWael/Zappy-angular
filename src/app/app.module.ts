@@ -9,6 +9,7 @@ import {
   MatButtonModule, MatCheckboxModule, MatSortModule, MatTableModule, MatIconModule, MatToolbarModule,
   MatFormFieldModule, MatInputModule, MatSelectModule
 } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -30,7 +31,8 @@ import {
     MatInputModule,
     MatSelectModule,
     MatSortModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
